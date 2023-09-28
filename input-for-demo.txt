@@ -1,0 +1,6 @@
+plugin template demo
+Demonstrating https://github.com/simonw/llm-plugin
+
+
+simonw
+Simon Willison

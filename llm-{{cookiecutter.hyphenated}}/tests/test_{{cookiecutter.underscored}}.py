@@ -1,7 +1,6 @@
-from llm.plugins import get_plugins
+from llm.plugins import pm
 
 
 def test_plugin_is_installed():
-    plugins = get_plugins()
-    names = [plugin["name"] for plugin in plugins]
-    assert "llm-{{ cookiecutter.hyphenated }}" in names
+    names = [mod.__name__ for mod in pm.get_plugins()]
+    assert "llm_{{ cookiecutter.underscored }}" in names

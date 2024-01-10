@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/llm-{{ cookiecutter.hyphenated }}.svg)](https://pypi.org/project/llm-{{ cookiecutter.hyphenated }}/){% if cookiecutter.github_username %}
 [![Changelog](https://img.shields.io/github/v/release/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}?include_prereleases&label=changelog)](https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}/releases)
-[![Tests](https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}/workflows/Test/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}/actions?query=workflow%3ATest)
+[![Tests](https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}/actions/workflows/test.yml/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}/blob/main/LICENSE){% endif %}
 
 {{ cookiecutter.description or "" }}

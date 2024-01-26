@@ -10,9 +10,9 @@
 ## Installation
 
 Install this plugin in the same environment as [LLM](https://llm.datasette.io/).
-
-    llm install llm-{{ cookiecutter.hyphenated }}
-
+```bash
+llm install llm-{{ cookiecutter.hyphenated }}
+```
 ## Usage
 
 Usage instructions go here.

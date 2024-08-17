@@ -22,7 +22,7 @@ Usage instructions go here.
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
 ```bash
 cd llm-{{ cookiecutter.hyphenated }}
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 ```
 Now install the dependencies and test dependencies:
@@ -31,5 +31,5 @@ llm install -e '.[test]'
 ```
 To run the tests:
 ```bash
-pytest
+python -m pytest
 ```

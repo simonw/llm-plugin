@@ -1,5 +1,5 @@
 name: Publish Python Package
-{% raw %}
+
 on:
   release:
     types: [created]
@@ -26,7 +26,7 @@ jobs:
         pip install -e '.[test]'
     - name: Run tests
       run: |
-        pytest
+        python -m pytest
   deploy:
     runs-on: ubuntu-latest
     needs: [test]
@@ -49,4 +49,4 @@ jobs:
         python -m build
     - name: Publish
       uses: pypa/gh-action-pypi-publish@release/v1
-{% endraw %}
+

@@ -65,4 +65,4 @@ You should see the following:
   }
 ]
 ```
-You can run the tests for your plugin with `pytest` - follow the development environment instructions in the plugin's generated README for details.
+You can run the tests for your plugin with `python -m pytest` - follow the development environment instructions in the plugin's generated README for details.

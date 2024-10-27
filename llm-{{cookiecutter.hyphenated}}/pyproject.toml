@@ -11,6 +11,10 @@ classifiers = [
 dependencies = [
     "llm"
 ]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 {% if cookiecutter.github_username %}
 [project.urls]
 Homepage = "https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.hyphenated }}"

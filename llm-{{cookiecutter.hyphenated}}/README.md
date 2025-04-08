@@ -27,7 +27,7 @@ source venv/bin/activate
 ```
 Now install the dependencies and test dependencies:
 ```bash
-llm install -e '.[test]'
+python -m pip install -e '.[test]'
 ```
 To run the tests:
 ```bash

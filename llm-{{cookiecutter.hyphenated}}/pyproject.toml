@@ -4,7 +4,7 @@ version = "0.1"
 description = "{{ cookiecutter.description or "" }}"
 readme = "README.md"
 authors = [{name = "{{ cookiecutter.author_name }}"}]
-license = {text = "Apache-2.0"}
+license = "Apache-2.0"
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]

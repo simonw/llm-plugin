@@ -1,7 +1,7 @@
 # llm-plugin cookiecutter template
 
 A cookiecutter template for creating new [llm plugins](https://llm.datasette.io/en/stable/plugins/index.html).
-`
+
 ## Installation
 
 You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed. I recommend pipx for this:

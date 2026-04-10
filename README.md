@@ -5,10 +5,10 @@ A cookiecutter template for creating new [llm plugins](https://llm.datasette.io/
 ## Installation
 
 You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed. I recommend pipx for this:
-
-    pipx install cookiecutter
-
-Regular `pip` will work OK too.
+```bash
+pipx install cookiecutter
+```
+Regular `pip` will work OK too, or `uv tool install`, or run `uvx cookiecutter ...` directly.
 
 ## Usage
 

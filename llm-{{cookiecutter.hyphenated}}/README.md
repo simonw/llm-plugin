@@ -19,17 +19,12 @@ Usage instructions go here.
 
 ## Development
 
-To set up this plugin locally, first checkout the code. Then create a new virtual environment:
+To set up this plugin locally, first checkout the code. Then run the tests with `uv`:
 ```bash
 cd llm-{{ cookiecutter.hyphenated }}
-python -m venv venv
-source venv/bin/activate
+uv run pytest
 ```
-Now install the dependencies and test dependencies:
+To run LLM with your in-development plugin:
 ```bash
-python -m pip install -e '.[test]'
-```
-To run the tests:
-```bash
-python -m pytest
+uv run llm --help
 ```

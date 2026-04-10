@@ -27,5 +27,5 @@ CI = "https://github.com/{{ cookiecutter.github_username }}/llm-{{ cookiecutter.
 [project.entry-points.llm]
 {{ cookiecutter.underscored }} = "llm_{{ cookiecutter.underscored }}"
 
-[project.optional-dependencies]
-test = ["pytest"]
+[dependency-groups]
+dev = ["pytest"]
